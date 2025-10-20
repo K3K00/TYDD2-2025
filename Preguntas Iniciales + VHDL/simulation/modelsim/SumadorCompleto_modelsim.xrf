@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Administrador/Desktop/TyDD2 2025/Preguntas Iniciales + VHDL/SumadorCompleto.vhd
+source_file = 1, C:/Users/Administrador/Desktop/TyDD2 2025/Preguntas Iniciales + VHDL/PruebaSumadorCompleto.vhd
+source_file = 1, C:/Users/Administrador/Desktop/TyDD2 2025/Preguntas Iniciales + VHDL/db/SumadorCompleto.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = sumadorcompleto
+instance = comp, \z~output\, z~output, sumadorcompleto, 1
+instance = comp, \cout~output\, cout~output, sumadorcompleto, 1
+instance = comp, \cin~input\, cin~input, sumadorcompleto, 1
+instance = comp, \a~input\, a~input, sumadorcompleto, 1
+instance = comp, \b~input\, b~input, sumadorcompleto, 1
+instance = comp, \z~0\, z~0, sumadorcompleto, 1
+instance = comp, \cout~0\, cout~0, sumadorcompleto, 1

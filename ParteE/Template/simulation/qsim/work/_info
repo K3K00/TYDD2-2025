@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteE\Template\simulation\qsim
+vtemplate
+Z1 I`84l>;K^jM?Lo72f[8P:_1
+Z2 VWKYM[;KFL<3[PnPl6MAzI3
+Z3 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteE\Template\simulation\qsim
+Z4 w1760923222
+Z5 8Template.vo
+Z6 FTemplate.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Template.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 ;7Z<lUl0]OlNC6oF917Fb1
+!s85 0
+Z11 !s108 1760923224.409000
+Z12 !s107 Template.vo|
+!s101 -O0
+vtemplate_vlg_check_tst
+!i10b 1
+!s100 O^=De^Pa843nLGhNzHn_72
+IZc1HWZlXicBJ1;k`6?9U^2
+V;hAN_HVR>5_:=2mMU6Zcz2
+R3
+Z13 w1760923221
+Z14 8Template.vt
+Z15 FTemplate.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1760923224.531000
+Z17 !s107 Template.vt|
+Z18 !s90 -work|work|Template.vt|
+!s101 -O0
+R9
+vtemplate_vlg_sample_tst
+!i10b 1
+!s100 ><6=G`hMQ@QCP;o=_Fzdk1
+IXML^;f:FIgA9cFWOF8jgi0
+VUYLlfoIl?dfQ`]`bWG_Td0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
+vtemplate_vlg_vec_tst
+!i10b 1
+!s100 PFhIB>l7M5:7DCCg<m:Vk0
+IKz<<EH>EiVdSm]Ni`n13S2
+Z19 VlS_`lJ4HTTo<QBm^C]_zO2
+R3
+R13
+R14
+R15
+L0 209
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9

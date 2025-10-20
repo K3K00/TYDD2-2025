@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrador\Desktop\TyDD2 2025\Preguntas Iniciales + VHDL\simulation\modelsim
+Epruebasumadorcompleto
+Z1 w1760818098
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Administrador\Desktop\TyDD2 2025\Preguntas Iniciales + VHDL\simulation\modelsim
+Z5 8C:/Users/Administrador/Desktop/TyDD2 2025/Preguntas Iniciales + VHDL/PruebaSumadorCompleto.vhd
+Z6 FC:/Users/Administrador/Desktop/TyDD2 2025/Preguntas Iniciales + VHDL/PruebaSumadorCompleto.vhd
+l0
+L5
+VA7^9Oz0RJ;B;6k>UYQn4<1
+!s100 jc7Q4XVKk2VlV2Ne]H`hE0
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1760820013.447000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrador/Desktop/TyDD2 2025/Preguntas Iniciales + VHDL/PruebaSumadorCompleto.vhd|
+Z10 !s107 C:/Users/Administrador/Desktop/TyDD2 2025/Preguntas Iniciales + VHDL/PruebaSumadorCompleto.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Abehavior
+R2
+R3
+DEx4 work 21 pruebasumadorcompleto 0 22 A7^9Oz0RJ;B;6k>UYQn4<1
+l26
+L8
+VW4nX3fTdmCSHL]gRzUE8W0
+!s100 khIhI?C?0o_Nj:d6OZDd;2
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Esumadorcompleto
+Z13 w1760817823
+Z14 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z15 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 n^46VOjinLK5_01fgQc6Z0
+Z16 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+R2
+R3
+Z17 DPx10 cycloneiii 21 cycloneiii_components 0 22 VeH8af>S`B?U[[D6_Khe@0
+R4
+Z18 8SumadorCompleto.vho
+Z19 FSumadorCompleto.vho
+l0
+L34
+VPeXb0?KfOa?EPfKPJ>7De0
+R7
+31
+Z20 !s108 1760820013.294000
+Z21 !s90 -reportprogress|300|-93|-work|work|SumadorCompleto.vho|
+Z22 !s107 SumadorCompleto.vho|
+R11
+R12
+!s100 jZ]9ID4E`MCi91[n4gXod3
+!i10b 1
+Astructure
+R14
+R15
+R16
+R2
+R3
+R17
+DEx4 work 15 sumadorcompleto 0 22 PeXb0?KfOa?EPfKPJ>7De0
+l75
+L52
+VQ2:31A^0gmobHFn@?NXWG3
+R7
+31
+R20
+R21
+R22
+R11
+R12
+!s100 4ihXQG[;1VP1>2CJ_61BG3
+!i10b 1

@@ -1,0 +1,61 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteB\simulation\modelsim
+vMultiplicadorSinSigno
+Ibe;Q>?Q[PHg1fH7`P]eH?1
+VWeKKz_jclT3i=J:[`MJ8@2
+Z1 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteB\simulation\modelsim
+w1760889448
+8MultiplicadorSinSigno.vo
+FMultiplicadorSinSigno.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+o-vlog01compat -work work -O0
+n@multiplicador@sin@signo
+!i10b 1
+!s100 ^1DVlI7km3OS3LiJV7k?a0
+!s85 0
+!s108 1760889808.318000
+!s107 MultiplicadorSinSigno.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|MultiplicadorSinSigno.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+Epruebamultsinsigno
+Z3 w1760889791
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R1
+Z6 8C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd
+Z7 FC:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd
+l0
+L5
+VbmQW;d9Im52fY<J_8bO3U3
+!s100 DoOSln85<N@e>^lEdNkm20
+Z8 OV;C;10.1d;51
+31
+!i10b 1
+Z9 !s108 1760889808.451000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd|
+Z11 !s107 C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+Abehavior
+R4
+R5
+DEx4 work 18 pruebamultsinsigno 0 22 bmQW;d9Im52fY<J_8bO3U3
+l33
+L8
+VRQJ_^noMe0kJ<3ZZbzSQa0
+!s100 Q`2L2_ced3g8Sz[zPC3l=3
+R8
+31
+!i10b 1
+R9
+R10
+R11
+R12
+R13

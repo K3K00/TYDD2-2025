@@ -1,0 +1,43 @@
+|MultiplicadorSinSigno
+A0 => SYNTHESIZED_WIRE_1.IN0
+A0 => p0.IN0
+A1 => SYNTHESIZED_WIRE_0.IN0
+A1 => SYNTHESIZED_WIRE_4.IN0
+B0 => SYNTHESIZED_WIRE_0.IN1
+B0 => p0.IN1
+B1 => SYNTHESIZED_WIRE_1.IN1
+B1 => SYNTHESIZED_WIRE_4.IN1
+p0 <= p0.DB_MAX_OUTPUT_PORT_TYPE
+p1 <= circuitocombinacional:b2v_inst2.z
+p2 <= circuitocombinacional:b2v_inst6.z
+p3 <= circuitocombinacional:b2v_inst6.cout
+
+
+|MultiplicadorSinSigno|circuitocombinacional:b2v_inst2
+a => z.IN0
+a => cout.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+b => cout.IN0
+cin => z.IN1
+cin => cout.IN1
+cin => cout.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiplicadorSinSigno|circuitocombinacional:b2v_inst6
+a => z.IN0
+a => cout.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+b => cout.IN0
+cin => z.IN1
+cin => cout.IN1
+cin => cout.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

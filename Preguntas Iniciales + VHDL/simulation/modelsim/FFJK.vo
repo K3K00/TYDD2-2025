@@ -1,0 +1,135 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "10/18/2025 17:21:44"
+
+// 
+// Device: Altera EP3C120F780C7 Package FBGA780
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module FFJK (
+	J,
+	K,
+	clk,
+	Qout);
+input 	J;
+input 	K;
+input 	clk;
+output 	Qout;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \J~input_o ;
+wire \Qout~output_o ;
+wire \clk~input_o ;
+wire \K~input_o ;
+wire \q~0_combout ;
+wire \q~q ;
+
+
+cycloneiii_io_ibuf \J~input (
+	.i(J),
+	.ibar(gnd),
+	.o(\J~input_o ));
+// synopsys translate_off
+defparam \J~input .bus_hold = "false";
+defparam \J~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneiii_io_obuf \Qout~output (
+	.i(\q~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Qout~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Qout~output .bus_hold = "false";
+defparam \Qout~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneiii_io_ibuf \clk~input (
+	.i(clk),
+	.ibar(gnd),
+	.o(\clk~input_o ));
+// synopsys translate_off
+defparam \clk~input .bus_hold = "false";
+defparam \clk~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneiii_io_ibuf \K~input (
+	.i(K),
+	.ibar(gnd),
+	.o(\K~input_o ));
+// synopsys translate_off
+defparam \K~input .bus_hold = "false";
+defparam \K~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneiii_lcell_comb \q~0 (
+// Equation(s):
+// \q~0_combout  = (\q~q  & ((!\K~input_o ))) # (!\q~q  & (\J~input_o ))
+
+	.dataa(\J~input_o ),
+	.datab(gnd),
+	.datac(\q~q ),
+	.datad(\K~input_o ),
+	.cin(gnd),
+	.combout(\q~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \q~0 .lut_mask = 16'h0AFA;
+defparam \q~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+dffeas q(
+	.clk(\clk~input_o ),
+	.d(\q~0_combout ),
+	.asdata(vcc),
+	.clrn(vcc),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\q~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam q.is_wysiwyg = "true";
+defparam q.power_up = "low";
+// synopsys translate_on
+
+assign Qout = \Qout~output_o ;
+
+endmodule

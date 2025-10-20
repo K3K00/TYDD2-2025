@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteB\simulation\qsim
+vMultiplicadorSinSigno
+Z1 !s100 Ij0Zj1aJ_Y7gcIgBJh5YJ1
+Z2 I4YB6<76kjTVEeR9f78k>F2
+Z3 VWeKKz_jclT3i=J:[`MJ8@2
+Z4 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteB\simulation\qsim
+Z5 w1760894820
+Z6 8MultiplicadorSinSigno.vo
+Z7 FMultiplicadorSinSigno.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|MultiplicadorSinSigno.vo|
+Z10 o-work work -O0
+Z11 n@multiplicador@sin@signo
+!i10b 1
+!s85 0
+Z12 !s108 1760894821.423000
+Z13 !s107 MultiplicadorSinSigno.vo|
+!s101 -O0
+vMultiplicadorSinSigno_vlg_check_tst
+!i10b 1
+Z14 !s100 F`B;0cRcY>oIJAlo;HFZZ2
+Z15 IBUWeIU<>>b:55zWO[ijF92
+Z16 V]1N;5CbA6l=oRiF@CBeZW1
+R4
+Z17 w1760894819
+Z18 8MultiplicadorSinSigno.vt
+Z19 FMultiplicadorSinSigno.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z20 !s108 1760894821.548000
+Z21 !s107 MultiplicadorSinSigno.vt|
+Z22 !s90 -work|work|MultiplicadorSinSigno.vt|
+!s101 -O0
+R10
+Z23 n@multiplicador@sin@signo_vlg_check_tst
+vMultiplicadorSinSigno_vlg_sample_tst
+!i10b 1
+Z24 !s100 YWkb:;n<^Wg;6GiIYXn5:3
+Z25 ITALl>PQQ7?l[Y6B^gG^KY3
+Z26 V]gW?@a<LAd193h3UX>3A52
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@multiplicador@sin@signo_vlg_sample_tst
+vMultiplicadorSinSigno_vlg_vec_tst
+!i10b 1
+Z28 !s100 Bn`e[RSV7`[m<5DaGi1V>3
+Z29 IKDjnWF]5I_EGHahHho@ND0
+Z30 VE@;4F?4^]Gh]z:g:KP;f51
+R4
+R17
+R18
+R19
+Z31 L0 239
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@multiplicador@sin@signo_vlg_vec_tst

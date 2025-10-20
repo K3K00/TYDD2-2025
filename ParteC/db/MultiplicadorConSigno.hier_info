@@ -1,0 +1,61 @@
+|MultiplicadorConSigno
+A0 => SYNTHESIZED_WIRE_14.DATAIN
+A1 => SYNTHESIZED_WIRE_16.DATAIN
+B0 => SYNTHESIZED_WIRE_15.DATAIN
+B1 => SYNTHESIZED_WIRE_17.DATAIN
+clk => p2~reg0.CLK
+clk => p3~reg0.CLK
+clk => SYNTHESIZED_WIRE_15.CLK
+clk => SYNTHESIZED_WIRE_14.CLK
+clk => p0~reg0.CLK
+clk => p1~reg0.CLK
+clk => SYNTHESIZED_WIRE_16.CLK
+clk => SYNTHESIZED_WIRE_17.CLK
+p0 <= p0~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p1 <= p1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p2 <= p2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p3 <= p3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiplicadorConSigno|circuitocombinacional:b2v_inst14
+a => z.IN0
+a => cout.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+b => cout.IN0
+cin => z.IN1
+cin => cout.IN1
+cin => cout.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiplicadorConSigno|circuitocombinacional:b2v_inst17
+a => z.IN0
+a => cout.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+b => cout.IN0
+cin => z.IN1
+cin => cout.IN1
+cin => cout.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiplicadorConSigno|circuitocombinacional:b2v_inst20
+a => z.IN0
+a => cout.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+b => cout.IN0
+cin => z.IN1
+cin => cout.IN1
+cin => cout.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

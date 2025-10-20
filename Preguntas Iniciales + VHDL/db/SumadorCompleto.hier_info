@@ -1,0 +1,14 @@
+|SumadorCompleto
+a => z.IN0
+a => cout.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+b => cout.IN0
+cin => z.IN1
+cin => cout.IN1
+cin => cout.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

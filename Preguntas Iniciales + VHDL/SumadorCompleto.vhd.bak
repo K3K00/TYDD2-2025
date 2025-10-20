@@ -1,0 +1,18 @@
+----------------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+----------------------------------------------------------
+entity sumadorcompleto is
+	port(a : in bit
+		  b : in bit
+		  cin : in bit
+		  z : out bit
+		  cout : out bit);
+end sumadorcompleto;
+----------------------------------------------------------
+architecture suma of sumadorcompleto is
+begin
+	z <= a xor b xor cin;
+	cout <= (a and b) or (cin and (a xor b));
+end suma
+----------------------------------------------------------

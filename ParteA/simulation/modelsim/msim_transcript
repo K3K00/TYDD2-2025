@@ -1,0 +1,49 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do CircuitoCombinacional_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {CircuitoCombinacional.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module circuitocombinacional
+# 
+# Top level modules:
+# 	circuitocombinacional
+# 
+# vcom -93 -work work {C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PruebaCircComb
+# -- Compiling architecture behavior of PruebaCircComb
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd(40): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera_ver -L cycloneiii_ver -L gate_work -L work -voptargs="+acc"  PruebaCircComb
+# vsim -L altera_ver -L cycloneiii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps PruebaCircComb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.pruebacirccomb(behavior)
+# ALTERA version supports only a single HDL
+# ** Error: (vsim-3039) C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd(33): Instantiation of 'circuitocombinacional' failed.
+# 
+#         Region: /pruebacirccomb
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./CircuitoCombinacional_run_msim_gate_verilog.do PAUSED at line 12

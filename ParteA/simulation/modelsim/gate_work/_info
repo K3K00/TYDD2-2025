@@ -1,0 +1,60 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteA\simulation\modelsim
+vcircuitocombinacional
+IMg071cd`=42h;lge[l8P`2
+V:AXzjX0^i20e3W6NGj6Da2
+Z1 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteA\simulation\modelsim
+w1760819774
+8CircuitoCombinacional.vo
+FCircuitoCombinacional.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+o-vlog01compat -work work -O0
+!i10b 1
+!s100 5ULA_mz>_K7gH7j756GH@2
+!s85 0
+!s108 1760820208.759000
+!s107 CircuitoCombinacional.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|CircuitoCombinacional.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+Epruebacirccomb
+Z3 w1760819864
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R1
+Z6 8C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd
+Z7 FC:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd
+l0
+L5
+Vgo@X?W8G0oo]FnI`3=:Ei1
+!s100 GMmnC@;>:NfNM7T:eDb^C0
+Z8 OV;C;10.1d;51
+31
+!i10b 1
+Z9 !s108 1760820208.865000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd|
+Z11 !s107 C:/Users/Administrador/Desktop/TyDD2 2025/ParteA/PruebaCircComb.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+Abehavior
+R4
+R5
+DEx4 work 14 pruebacirccomb 0 22 go@X?W8G0oo]FnI`3=:Ei1
+l26
+L8
+V7fdB8HHnD_J83_Tf7bP<e2
+!s100 0T9XTZACzYKIDG58eT@_H0
+R8
+31
+!i10b 1
+R9
+R10
+R11
+R12
+R13

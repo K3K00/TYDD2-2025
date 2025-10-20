@@ -1,0 +1,66 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do MultiplicadorSinSigno_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/MultiplicadorSinSigno.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MultiplicadorSinSigno
+# -- Compiling architecture bdf_type of MultiplicadorSinSigno
+# vcom -93 -work work {C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/CircuitoCombinacional.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity circuitocombinacional
+# -- Compiling architecture suma of circuitocombinacional
+# 
+# vcom -93 -work work {C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PruebaMultSinSigno
+# -- Compiling architecture behavior of PruebaMultSinSigno
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  PruebaMultSinSigno
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps PruebaMultSinSigno 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.pruebamultsinsigno(behavior)
+# Loading work.multiplicadorsinsigno(bdf_type)
+# Loading work.circuitocombinacional(suma)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 160 ns

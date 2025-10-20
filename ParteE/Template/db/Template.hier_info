@@ -1,0 +1,13 @@
+|Template
+clk => state~1.DATAIN
+input => Selector1.IN0
+input => Selector3.IN0
+input => Selector5.IN0
+input => Selector6.IN0
+reset => state~3.DATAIN
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+

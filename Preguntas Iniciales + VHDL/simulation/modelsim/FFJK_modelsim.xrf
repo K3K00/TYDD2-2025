@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Administrador/Desktop/TyDD2 2025/Preguntas Iniciales + VHDL/FFJK.vhd
+source_file = 1, C:/Users/Administrador/Desktop/TyDD2 2025/Preguntas Iniciales + VHDL/db/FFJK.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = FFJK
+instance = comp, \J~input , J~input, FFJK, 1
+instance = comp, \Qout~output , Qout~output, FFJK, 1
+instance = comp, \clk~input , clk~input, FFJK, 1
+instance = comp, \K~input , K~input, FFJK, 1
+instance = comp, \q~0 , q~0, FFJK, 1

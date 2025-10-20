@@ -1,0 +1,161 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrador\Desktop\TyDD2 2025\Preguntas Iniciales + VHDL\simulation\qsim
+vFFJK
+Z1 I>KTTUTYWERXfUX<gn^>LG3
+Z2 VcILkCg;0XHbNlNR>e;3c?0
+Z3 dC:\Users\Administrador\Desktop\TyDD2 2025\Preguntas Iniciales + VHDL\simulation\qsim
+Z4 w1760818904
+Z5 8FFJK.vo
+Z6 FFFJK.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@f@f@j@k
+!i10b 1
+Z10 !s100 EQ9m4jFVD@548hN`6e_X53
+!s85 0
+Z11 !s108 1760818905.098000
+Z12 !s107 FFJK.vo|
+Z13 !s90 -work|work|FFJK.vo|
+!s101 -O0
+vFFJK_vlg_check_tst
+!i10b 1
+!s100 ]ahPGX4PZ2WRG8WC6HJTX2
+IQIkWgBU=K`?aJ_>:ic`nZ2
+VA=]XfIiYj:>HHkdVCo<9e1
+R3
+Z14 w1760818903
+Z15 8FFJK.vt
+Z16 FFFJK.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1760818905.256000
+Z18 !s107 FFJK.vt|
+Z19 !s90 -work|work|FFJK.vt|
+!s101 -O0
+R8
+n@f@f@j@k_vlg_check_tst
+vFFJK_vlg_sample_tst
+!i10b 1
+!s100 >:kZX3d21^9<ome^2<0in3
+Ik@6OzZMz<8FEm;hI<XRZB3
+VnNH?5RRKJN>JSBn:R0V^Q2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@f@f@j@k_vlg_sample_tst
+vFFJK_vlg_vec_tst
+!i10b 1
+!s100 ;;UEecbJNF;]5m8`;7Lzg2
+Ig8lF;;jOzVf`hW2LI?FDW1
+V4SBZ3<K`5z0P9c?i8QfaQ3
+R3
+R14
+R15
+R16
+L0 156
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@f@f@j@k_vlg_vec_tst
+vsumadorcompleto
+Z20 !s100 d0[>8;bFmJZWnea5Nlajd2
+Z21 IOh3T[1N7Mb3n1Qg>9D6oh0
+Z22 V4zGR7Vdd`2bG8g@;d934@3
+R3
+Z23 w1760815900
+Z24 8SumadorCompleto.vo
+Z25 FSumadorCompleto.vo
+L0 31
+R7
+r1
+31
+Z26 !s90 -work|work|SumadorCompleto.vo|
+R8
+Z27 !s108 1760815901.579000
+Z28 !s107 SumadorCompleto.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vsumadorcompleto_vlg_check_tst
+Z29 !s100 DVS=RM@GKE6XOg>a>XYH51
+Z30 ISKdN38Kn25HOGoEPz>ail1
+Z31 V]5P66B2iinPXg1BaM@idj2
+R3
+Z32 w1760815899
+Z33 8SumadorCompleto.vt
+Z34 FSumadorCompleto.vt
+L0 61
+R7
+r1
+31
+Z35 !s108 1760815901.731000
+Z36 !s107 SumadorCompleto.vt|
+Z37 !s90 -work|work|SumadorCompleto.vt|
+R8
+!i10b 1
+!s85 0
+!s101 -O0
+vsumadorcompleto_vlg_sample_tst
+Z38 !s100 amFC_2fg<ZLE>J<5Menhj0
+Z39 IZJ_774AgSYi4]V_56lMJE2
+Z40 V^DQjDzek5o7biC=eJB5?W2
+R3
+R32
+R33
+R34
+L0 29
+R7
+r1
+31
+R35
+R36
+R37
+R8
+!i10b 1
+!s85 0
+!s101 -O0
+vsumadorcompleto_vlg_vec_tst
+Z41 !s100 >XT45X6SK`32O`5d]OEkF0
+Z42 ISJd;KIF1dH?`H3z2N7hIQ1
+Z43 VAjo0zae]BnnN@O3:7LOS`2
+R3
+R32
+R33
+R34
+Z44 L0 183
+R7
+r1
+31
+R35
+R36
+R37
+R8
+!i10b 1
+!s85 0
+!s101 -O0

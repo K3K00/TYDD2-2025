@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteB\simulation\modelsim
+Ecircuitocombinacional
+Z1 w1760884854
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteB\simulation\modelsim
+Z5 8C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/CircuitoCombinacional.vhd
+Z6 FC:/Users/Administrador/Desktop/TyDD2 2025/ParteB/CircuitoCombinacional.vhd
+l0
+L5
+V_8hGFXb_CzjFH11e53[973
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1760896626.672000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/CircuitoCombinacional.vhd|
+Z10 !s107 C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/CircuitoCombinacional.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 o5bI^zCbPU@jAKA@X@:3N2
+!i10b 1
+Asuma
+R2
+R3
+DEx4 work 21 circuitocombinacional 0 22 _8hGFXb_CzjFH11e53[973
+l14
+L13
+V7b?94eaSNnQ:;QcGDfG7a0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 ?<EAAXR@zbb^bdHKB@aX]2
+!i10b 1
+Emultiplicadorsinsigno
+Z13 w1760896483
+R2
+R3
+R4
+Z14 8C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/MultiplicadorSinSigno.vhd
+Z15 FC:/Users/Administrador/Desktop/TyDD2 2025/ParteB/MultiplicadorSinSigno.vhd
+l0
+L23
+VU4KM@kO<e1BUL@:No_I2c2
+R7
+31
+Z16 !s108 1760896626.527000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/MultiplicadorSinSigno.vhd|
+Z18 !s107 C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/MultiplicadorSinSigno.vhd|
+R11
+R12
+!s100 ?RMKC>^JJ<Vc14`LV85Y<2
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 21 multiplicadorsinsigno 0 22 U4KM@kO<e1BUL@:No_I2c2
+l54
+L35
+V]hm[9=2hLWIg@lF;O>21`2
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 ^WnJe7>aEBFBCFgKoLInM1
+!i10b 1
+Epruebamultsinsigno
+Z19 w1760895641
+R2
+R3
+R4
+Z20 8C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd
+Z21 FC:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd
+l0
+L5
+VbmQW;d9Im52fY<J_8bO3U3
+!s100 DoOSln85<N@e>^lEdNkm20
+R7
+31
+!i10b 1
+Z22 !s108 1760896626.793000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd|
+Z24 !s107 C:/Users/Administrador/Desktop/TyDD2 2025/ParteB/PruebaMultSinSigno.vhd|
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 18 pruebamultsinsigno 0 22 bmQW;d9Im52fY<J_8bO3U3
+l33
+L8
+VRQJ_^noMe0kJ<3ZZbzSQa0
+!s100 Q`2L2_ced3g8Sz[zPC3l=3
+R7
+31
+!i10b 1
+R22
+R23
+R24
+R11
+R12

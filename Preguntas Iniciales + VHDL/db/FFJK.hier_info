@@ -1,0 +1,7 @@
+|FFJK
+J => q.IN1
+K => q.IN1
+clk => q.CLK
+Qout <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
