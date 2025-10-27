@@ -1,0 +1,8 @@
+
+State Machine - |Esquematico|ImplementacionI2C:inst3|fstate
+Name fstate.Guardadato fstate.Acknowledge fstate.RyW fstate.Guardadir fstate.Oscioso 
+fstate.Oscioso 0 0 0 0 0 
+fstate.Guardadir 0 0 0 1 1 
+fstate.RyW 0 0 1 0 1 
+fstate.Acknowledge 0 1 0 0 1 
+fstate.Guardadato 1 0 0 0 1 

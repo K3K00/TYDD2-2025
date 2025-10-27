@@ -8,13 +8,13 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity template is
+entity Template is
 
 	port(
 		clk		 : in	std_logic;
-		input	 	 : in	std_logic;
+		X_in	 	 : in	std_logic;
 		reset	 	 : in	std_logic;
-		output	 : out	std_logic_vector(3 downto 0)
+		d_out	 : out std_logic_vector(3 downto 0)
 	);
 
 end entity;
@@ -28,8 +28,7 @@ architecture rtl of template is
 	signal state   : state_type;
 
 begin
-
-	-- Logic to advance to the next state
+	-- Logic to advance to the neX_int state
 	process (clk, reset)
 	begin
 		if reset = '1' then
@@ -37,37 +36,37 @@ begin
 		elsif (rising_edge(clk)) then
 			case state is
 				when s0=>
-					if input = '1' then
+					if X_in = '1' then
 						state <= s1;
 					else
 						state <= s3;
 					end if;
 				when s1=>
-					if input = '0' or input = '1' then
+					if X_in = '0' or X_in = '1' then
 						state <= s2;
 					end if;
 				when s2=>
-					if input = '1' then
+					if X_in = '1' then
 						state <= s5;
 					else
 						state <= s6;
 					end if;
 				when s3 =>
-					if input = '0' or input = '1' then
+					if X_in = '0' or X_in = '1' then
 						state <= s4;
 					end if;
 				when s4=>
-						if input = '0' or input = '1' then
+						if X_in = '0' or X_in = '1' then
 						state <= s2;
 					end if;
 				when s5=>
-					if input = '1' then
+					if X_in = '1' then
 						state <= s0;
 					else
 						state <= s0;
 					end if;
 				when s6=>
-						if input = '0' or input = '1' then
+						if X_in = '0' or X_in = '1' then
 						state <= s2;
 					end if;
 			end case;
@@ -79,20 +78,19 @@ begin
 	begin
 		case state is
 			when s0 =>
-				output <= "0000";
+				d_out <= "0000";
 			when s1 =>
-				output <= "0110";
+				d_out <= "0110";
 			when s2 =>
-				output <= "1111";
+				d_out <= "1111";
 			when s3 =>
-				output <= "1000";
+				d_out <= "1000";
 			when s4 =>
-				output <= "1100";
+				d_out <= "1100";
 			when s5 =>
-				output <= "1001";
+				d_out <= "1001";
 			when s6 =>
-				output <= "1110";
+				d_out <= "1110";
 		end case;
 	end process;
-
-end;
+end rtl;

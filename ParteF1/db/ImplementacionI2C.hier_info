@@ -1,0 +1,372 @@
+|Esquematico
+Ack <= ImplementacionI2C:inst3.ACK
+SDA => ImplementacionI2C:inst3.SDA
+SDA => esaeslacuestion:inst2.SDA
+SDA => seronoser:inst.SDA
+clk => ImplementacionI2C:inst3.clk
+SCL => esaeslacuestion:inst2.SCL
+SCL => seronoser:inst.SCL
+Hab_dir <= ImplementacionI2C:inst3.Hab_Dir
+Hab_Dat <= ImplementacionI2C:inst3.Hab_Dat
+fin_dir <= seronoser:inst.fin_dir
+soy <= seronoser:inst.soy
+fin_dato <= esaeslacuestion:inst2.fin_dato
+
+
+|Esquematico|ImplementacionI2C:inst3
+reset => reg_fstate.Oscioso.OUTPUTSELECT
+reset => reg_fstate.Guardadir.OUTPUTSELECT
+reset => reg_fstate.RyW.OUTPUTSELECT
+reset => reg_fstate.Acknowledge.OUTPUTSELECT
+reset => reg_fstate.Guardadato.OUTPUTSELECT
+reset => Hab_Dir.OUTPUTSELECT
+reset => Hab_Dat.OUTPUTSELECT
+reset => ACK.OUTPUTSELECT
+clk => fstate~1.DATAIN
+SDA => Selector0.IN1
+SDA => Selector1.IN1
+soy => process_1.IN0
+soy => process_1.IN0
+fin_dir => process_1.IN1
+fin_dir => process_1.IN1
+fin_dato => Selector0.IN4
+fin_dato => Selector2.IN2
+Hab_Dir <= Hab_Dir.DB_MAX_OUTPUT_PORT_TYPE
+Hab_Dat <= Hab_Dat.DB_MAX_OUTPUT_PORT_TYPE
+ACK <= ACK.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico|esaeslacuestion:inst2
+fin_dato <= lpm_counter0:inst5.cout
+Hab_Dat => inst.IN0
+SCL => inst.IN1
+SDA => Registro8Bits:inst7.shiftin
+
+
+|Esquematico|esaeslacuestion:inst2|lpm_counter0:inst5
+clock => lpm_counter:LPM_COUNTER_component.clock
+cout <= lpm_counter:LPM_COUNTER_component.cout
+q[0] <= lpm_counter:LPM_COUNTER_component.q[0]
+q[1] <= lpm_counter:LPM_COUNTER_component.q[1]
+q[2] <= lpm_counter:LPM_COUNTER_component.q[2]
+
+
+|Esquematico|esaeslacuestion:inst2|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component
+clock => cntr_r6i:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_r6i:auto_generated.q[0]
+q[1] <= cntr_r6i:auto_generated.q[1]
+q[2] <= cntr_r6i:auto_generated.q[2]
+cout <= cntr_r6i:auto_generated.cout
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Esquematico|esaeslacuestion:inst2|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_r6i:auto_generated
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+cout <= cout_actual.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico|esaeslacuestion:inst2|Registro8Bits:inst7
+clock => lpm_shiftreg:LPM_SHIFTREG_component.clock
+shiftin => lpm_shiftreg:LPM_SHIFTREG_component.shiftin
+q[0] <= lpm_shiftreg:LPM_SHIFTREG_component.q[0]
+q[1] <= lpm_shiftreg:LPM_SHIFTREG_component.q[1]
+q[2] <= lpm_shiftreg:LPM_SHIFTREG_component.q[2]
+
+
+|Esquematico|esaeslacuestion:inst2|Registro8Bits:inst7|lpm_shiftreg:LPM_SHIFTREG_component
+data[0] => _.IN1
+data[1] => _.IN1
+data[2] => _.IN1
+clock => dffs[2].CLK
+clock => dffs[1].CLK
+clock => dffs[0].CLK
+enable => dffs[2].ENA
+enable => dffs[1].ENA
+enable => dffs[0].ENA
+shiftin => _.IN1
+load => _.IN0
+load => _.IN0
+load => _.IN0
+load => _.IN0
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+sclr => _.IN0
+sset => _.IN0
+sset => _.IN0
+sset => _.IN0
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= dffs[2].DB_MAX_OUTPUT_PORT_TYPE
+shiftout <= shiftout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico|seronoser:inst
+soy <= Comparador:inst10.aeb
+Hab_Dir => inst2.IN0
+SCL => inst2.IN1
+SDA => Registro7bits:inst9.shiftin
+fin_dir <= ComparadorMod7:inst11.aeb
+
+
+|Esquematico|seronoser:inst|Comparador:inst10
+dataa[0] => lpm_compare:LPM_COMPARE_component.dataa[0]
+dataa[1] => lpm_compare:LPM_COMPARE_component.dataa[1]
+dataa[2] => lpm_compare:LPM_COMPARE_component.dataa[2]
+dataa[3] => lpm_compare:LPM_COMPARE_component.dataa[3]
+dataa[4] => lpm_compare:LPM_COMPARE_component.dataa[4]
+dataa[5] => lpm_compare:LPM_COMPARE_component.dataa[5]
+dataa[6] => lpm_compare:LPM_COMPARE_component.dataa[6]
+datab[0] => lpm_compare:LPM_COMPARE_component.datab[0]
+datab[1] => lpm_compare:LPM_COMPARE_component.datab[1]
+datab[2] => lpm_compare:LPM_COMPARE_component.datab[2]
+datab[3] => lpm_compare:LPM_COMPARE_component.datab[3]
+datab[4] => lpm_compare:LPM_COMPARE_component.datab[4]
+datab[5] => lpm_compare:LPM_COMPARE_component.datab[5]
+datab[6] => lpm_compare:LPM_COMPARE_component.datab[6]
+aeb <= lpm_compare:LPM_COMPARE_component.aeb
+
+
+|Esquematico|seronoser:inst|Comparador:inst10|lpm_compare:LPM_COMPARE_component
+dataa[0] => cmpr_lkg:auto_generated.dataa[0]
+dataa[1] => cmpr_lkg:auto_generated.dataa[1]
+dataa[2] => cmpr_lkg:auto_generated.dataa[2]
+dataa[3] => cmpr_lkg:auto_generated.dataa[3]
+dataa[4] => cmpr_lkg:auto_generated.dataa[4]
+dataa[5] => cmpr_lkg:auto_generated.dataa[5]
+dataa[6] => cmpr_lkg:auto_generated.dataa[6]
+datab[0] => cmpr_lkg:auto_generated.datab[0]
+datab[1] => cmpr_lkg:auto_generated.datab[1]
+datab[2] => cmpr_lkg:auto_generated.datab[2]
+datab[3] => cmpr_lkg:auto_generated.datab[3]
+datab[4] => cmpr_lkg:auto_generated.datab[4]
+datab[5] => cmpr_lkg:auto_generated.datab[5]
+datab[6] => cmpr_lkg:auto_generated.datab[6]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= cmpr_lkg:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|Esquematico|seronoser:inst|Comparador:inst10|lpm_compare:LPM_COMPARE_component|cmpr_lkg:auto_generated
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+dataa[4] => data_wire[2].IN0
+dataa[5] => data_wire[2].IN0
+dataa[6] => data_wire[3].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+datab[4] => data_wire[2].IN1
+datab[5] => data_wire[2].IN1
+datab[6] => data_wire[3].IN1
+
+
+|Esquematico|seronoser:inst|Registro7bits:inst9
+clock => lpm_shiftreg:LPM_SHIFTREG_component.clock
+shiftin => lpm_shiftreg:LPM_SHIFTREG_component.shiftin
+q[0] <= lpm_shiftreg:LPM_SHIFTREG_component.q[0]
+q[1] <= lpm_shiftreg:LPM_SHIFTREG_component.q[1]
+q[2] <= lpm_shiftreg:LPM_SHIFTREG_component.q[2]
+q[3] <= lpm_shiftreg:LPM_SHIFTREG_component.q[3]
+q[4] <= lpm_shiftreg:LPM_SHIFTREG_component.q[4]
+q[5] <= lpm_shiftreg:LPM_SHIFTREG_component.q[5]
+q[6] <= lpm_shiftreg:LPM_SHIFTREG_component.q[6]
+
+
+|Esquematico|seronoser:inst|Registro7bits:inst9|lpm_shiftreg:LPM_SHIFTREG_component
+data[0] => _.IN1
+data[1] => _.IN1
+data[2] => _.IN1
+data[3] => _.IN1
+data[4] => _.IN1
+data[5] => _.IN1
+data[6] => _.IN1
+clock => dffs[6].CLK
+clock => dffs[5].CLK
+clock => dffs[4].CLK
+clock => dffs[3].CLK
+clock => dffs[2].CLK
+clock => dffs[1].CLK
+clock => dffs[0].CLK
+enable => dffs[6].ENA
+enable => dffs[5].ENA
+enable => dffs[4].ENA
+enable => dffs[3].ENA
+enable => dffs[2].ENA
+enable => dffs[1].ENA
+enable => dffs[0].ENA
+shiftin => _.IN1
+load => _.IN0
+load => _.IN0
+load => _.IN0
+load => _.IN0
+load => _.IN0
+load => _.IN0
+load => _.IN0
+load => _.IN0
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+sclr => _.IN0
+sset => _.IN0
+sset => _.IN0
+sset => _.IN0
+sset => _.IN0
+sset => _.IN0
+sset => _.IN0
+sset => _.IN0
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= dffs[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= dffs[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= dffs[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= dffs[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= dffs[6].DB_MAX_OUTPUT_PORT_TYPE
+shiftout <= shiftout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico|seronoser:inst|Direccion:inst1
+Dire[0] <= <VCC>
+Dire[1] <= <VCC>
+Dire[2] <= <VCC>
+Dire[3] <= <VCC>
+Dire[4] <= <VCC>
+Dire[5] <= <VCC>
+Dire[6] <= <VCC>
+
+
+|Esquematico|seronoser:inst|ComparadorMod7:inst11
+dataa[0] => lpm_compare:LPM_COMPARE_component.dataa[0]
+dataa[1] => lpm_compare:LPM_COMPARE_component.dataa[1]
+dataa[2] => lpm_compare:LPM_COMPARE_component.dataa[2]
+aeb <= lpm_compare:LPM_COMPARE_component.aeb
+
+
+|Esquematico|seronoser:inst|ComparadorMod7:inst11|lpm_compare:LPM_COMPARE_component
+dataa[0] => cmpr_oaj:auto_generated.dataa[0]
+dataa[1] => cmpr_oaj:auto_generated.dataa[1]
+dataa[2] => cmpr_oaj:auto_generated.dataa[2]
+datab[0] => cmpr_oaj:auto_generated.datab[0]
+datab[1] => cmpr_oaj:auto_generated.datab[1]
+datab[2] => cmpr_oaj:auto_generated.datab[2]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= cmpr_oaj:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|Esquematico|seronoser:inst|ComparadorMod7:inst11|lpm_compare:LPM_COMPARE_component|cmpr_oaj:auto_generated
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+
+
+|Esquematico|seronoser:inst|lpm_counter0:inst
+clock => lpm_counter:LPM_COUNTER_component.clock
+cout <= lpm_counter:LPM_COUNTER_component.cout
+q[0] <= lpm_counter:LPM_COUNTER_component.q[0]
+q[1] <= lpm_counter:LPM_COUNTER_component.q[1]
+q[2] <= lpm_counter:LPM_COUNTER_component.q[2]
+
+
+|Esquematico|seronoser:inst|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component
+clock => cntr_r6i:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_r6i:auto_generated.q[0]
+q[1] <= cntr_r6i:auto_generated.q[1]
+q[2] <= cntr_r6i:auto_generated.q[2]
+cout <= cntr_r6i:auto_generated.cout
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Esquematico|seronoser:inst|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_r6i:auto_generated
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+cout <= cout_actual.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

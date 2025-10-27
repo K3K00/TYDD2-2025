@@ -1,0 +1,97 @@
+|MultiModyCA2
+s3 <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst29.CLK
+clk => inst28.CLK
+clk => inst22.CLK
+clk => inst21.CLK
+clk => inst27.CLK
+clk => inst30.CLK
+clk => inst25.CLK
+clk => inst26.CLK
+clk => inst19.CLK
+clk => inst18.CLK
+clk => inst15.CLK
+clk => inst11.CLK
+B0 => inst28.DATAIN
+A1 => inst22.DATAIN
+B1 => inst21.DATAIN
+A0 => inst27.DATAIN
+s2 <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+s1 <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+s0 <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+u0 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+u1 <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+u2 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+u3 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiModyCA2|circuitocombinacional:inst20
+a => z.IN0
+a => cout.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+b => cout.IN0
+cin => z.IN1
+cin => cout.IN1
+cin => cout.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiModyCA2|circuitocombinacional:inst17
+a => z.IN0
+a => cout.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+b => cout.IN0
+cin => z.IN1
+cin => cout.IN1
+cin => cout.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiModyCA2|circuitocombinacional:inst14
+a => z.IN0
+a => cout.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+b => cout.IN0
+cin => z.IN1
+cin => cout.IN1
+cin => cout.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiModyCA2|circuitocombinacional:inst3
+a => z.IN0
+a => cout.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+b => cout.IN0
+cin => z.IN1
+cin => cout.IN1
+cin => cout.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiModyCA2|circuitocombinacional:inst9
+a => z.IN0
+a => cout.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+b => cout.IN0
+cin => z.IN1
+cin => cout.IN1
+cin => cout.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

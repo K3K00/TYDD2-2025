@@ -3,79 +3,83 @@ K3
 13
 cModel Technology
 Z0 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteE\Template\simulation\qsim
-vtemplate
-Z1 I`84l>;K^jM?Lo72f[8P:_1
-Z2 VWKYM[;KFL<3[PnPl6MAzI3
-Z3 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteE\Template\simulation\qsim
-Z4 w1760923222
-Z5 8Template.vo
-Z6 FTemplate.vo
+vTemplate
+Z1 !s100 nM0UaJ]2@:e<JkFN<o_JK0
+Z2 IeR8h;iEzlCV0kR`^6jg^W1
+Z3 V7:QS`Ih72``=gWMJ63A]41
+Z4 dC:\Users\Administrador\Desktop\TyDD2 2025\ParteE\Template\simulation\qsim
+Z5 w1760990007
+Z6 8Template.vo
+Z7 FTemplate.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 !s90 -work|work|Template.vo|
-Z9 o-work work -O0
+Z9 !s90 -work|work|Template.vo|
+Z10 o-work work -O0
+Z11 n@template
 !i10b 1
-Z10 !s100 ;7Z<lUl0]OlNC6oF917Fb1
 !s85 0
-Z11 !s108 1760923224.409000
-Z12 !s107 Template.vo|
+Z12 !s108 1760990008.995000
+Z13 !s107 Template.vo|
 !s101 -O0
-vtemplate_vlg_check_tst
+vTemplate_vlg_check_tst
 !i10b 1
-!s100 O^=De^Pa843nLGhNzHn_72
-IZc1HWZlXicBJ1;k`6?9U^2
-V;hAN_HVR>5_:=2mMU6Zcz2
-R3
-Z13 w1760923221
-Z14 8Template.vt
-Z15 FTemplate.vt
+Z14 !s100 P5`Qje[1j80JK8Qh[WQnB2
+Z15 I@lUeGl4_?H5CWQBG>GWN`2
+Z16 VQa9zT05V3HXPgY7^d_oK[3
+R4
+Z17 w1760990006
+Z18 8Template.vt
+Z19 FTemplate.vt
 L0 61
-R7
+R8
 r1
 !s85 0
 31
-Z16 !s108 1760923224.531000
-Z17 !s107 Template.vt|
-Z18 !s90 -work|work|Template.vt|
+Z20 !s108 1760990009.105000
+Z21 !s107 Template.vt|
+Z22 !s90 -work|work|Template.vt|
 !s101 -O0
-R9
-vtemplate_vlg_sample_tst
+R10
+Z23 n@template_vlg_check_tst
+vTemplate_vlg_sample_tst
 !i10b 1
-!s100 ><6=G`hMQ@QCP;o=_Fzdk1
-IXML^;f:FIgA9cFWOF8jgi0
-VUYLlfoIl?dfQ`]`bWG_Td0
-R3
-R13
-R14
-R15
+Z24 !s100 EM<5hzKT;8Qi9^C@Xi2:h0
+Z25 Ib1R:j9AaU82fZZUMo4SU53
+Z26 V2VG8GTnUP?XQmlE<<GNJB1
+R4
+R17
+R18
+R19
 L0 29
-R7
+R8
 r1
 !s85 0
 31
-R16
-R17
-R18
+R20
+R21
+R22
 !s101 -O0
-R9
-vtemplate_vlg_vec_tst
+R10
+Z27 n@template_vlg_sample_tst
+vTemplate_vlg_vec_tst
 !i10b 1
-!s100 PFhIB>l7M5:7DCCg<m:Vk0
-IKz<<EH>EiVdSm]Ni`n13S2
-Z19 VlS_`lJ4HTTo<QBm^C]_zO2
-R3
-R13
-R14
-R15
-L0 209
-R7
+!s100 8YMRFfi8AG3R_R3VbO:ER3
+ISn0:Z<=2cPf_<UQ[4Rok<1
+Z28 Vmjm<9PmUR>Abgi;9CNC3b0
+R4
+R17
+R18
+R19
+Z29 L0 209
+R8
 r1
 !s85 0
 31
-R16
-R17
-R18
+R20
+R21
+R22
 !s101 -O0
-R9
+R10
+Z30 n@template_vlg_vec_tst

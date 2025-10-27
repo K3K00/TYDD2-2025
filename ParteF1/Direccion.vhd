@@ -1,0 +1,14 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY Direccion IS
+	PORT
+	(
+		Dire	: OUT STD_LOGIC_VECTOR (6 DOWNTO 0)
+	);
+END Direccion;
+
+architecture hola of Direccion is
+begin
+	Dire <= "1111111";
+end;
